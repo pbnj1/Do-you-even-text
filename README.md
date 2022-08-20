@@ -72,6 +72,8 @@ The following image shows the application's IndexedDB storage:
 - Run `npm run start` in terminal to start. 
 - Then go to http://localhost:3000/ 
 
+## Deployed At
+https://hidden-crag-56984.herokuapp.com/
 
 ## Technologies
 * [express.js](https://expressjs.com/)
