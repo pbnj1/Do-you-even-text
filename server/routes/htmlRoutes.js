@@ -1,3 +1,4 @@
+// this file should be good
 const path = require('path');
 
 module.exports = (app) =>
