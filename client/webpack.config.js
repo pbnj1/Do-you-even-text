@@ -19,7 +19,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Do You Even Text'
+        title: 'Just Another Text Editor'
       }),
       // TODO: Add and configure workbox plugins for a service worker and manifest file.
       new InjectManifest({
@@ -30,8 +30,8 @@ module.exports = () => {
     new WebpackPwaManifest({
       fingerprints: false,
       inject: true,
-      name: 'Dreamcatcher Text Editor',
-      short_name: 'D.T.E',
+      name: 'Just Another Text Editor',
+      short_name: 'JATE',
       description: 'Keep track of important tasks!',
       background_color: '#0F111A',
       theme_color: '#0F111A',
